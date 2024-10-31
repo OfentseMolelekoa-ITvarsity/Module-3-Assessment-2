@@ -1,0 +1,1464 @@
+/*---------------------------------------------------------
+                  Body Home Page - Start
+-----------------------------------------------------------*/
+
+.home-page-body{
+    background-image: url(images/variety\ of\ indian\ food\ backrground-overlay.jpg); /* Path to your image */
+    background-size: cover; /* Ensure the image covers the entire page */
+    background-repeat: no-repeat; /* ensures the image does not repeat itself */
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/*---------------------------------------------------------
+                  Body Home Page - End
+-----------------------------------------------------------*/
+
+/*---------------------------------------------------------
+                  Header Home Page - Start
+-----------------------------------------------------------*/
+
+.navigation-bar{
+    padding: 1px;
+    background-color: rgb(255, 183, 48);
+    border-radius: 5px;
+    margin-top: 20px; /* determines the space between the elements in this div class and the other elements in the page in this case margin top moves the div class/elements in this div class 20px from the top of the page or the elements above it*/
+}
+
+.navigation-bar-links{
+    list-style-type: none;
+    display: flex; /* when we create html elements by default they are placed how they are created by html to be placed and tehy will get fixed into that position unless we define the css property display: flex so we can make the html elements individually or collectively within a div tag flexible so we can apply position based properties to them to modify their position within the html page */
+}
+
+.navigation-bar-links a{ /* specifying a means we can only use a tag/hyper link specific properties i.e. text decoration, if we apply properties such as text align etc this will not work here*/
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 10px; /* applies an all round margin around an element ensuring that the element has a certain amount of spacing around it in this case margin isnt specified as in margin top, margin right or margin left therefore the 20 px parameter applied to this margin will apply all around the element since in this case it is applied to the a tags which are the hyperlinks this 20px margin will wrap ALL-AROUND THE A TAGS/HYPERLINKS APPLYING 20 PIXELS OF SPACING AROUND IT FROM ITS SURROUNDINGS */
+}
+
+.navigation-bar-links a:hover{
+    color: white;
+}
+
+/*---------------------------------------------------------
+                  Header Home Page - End
+-----------------------------------------------------------*/
+
+/*---------------------------------------------------------
+                  Main Content Home Page - Start
+-----------------------------------------------------------*/
+
+.main-content h1{
+    color:white;
+    font-size: 145px;
+    font-family:'Times New Roman', Times, serif;
+    margin-top:-100px;
+}
+
+.main-content p{
+    color:white;
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: -30px;
+}
+
+.main-content{
+    text-align:center;
+}
+
+.main-content img{
+    margin-top:-10px;
+}
+
+
+/*=================Categories List Start===================*/
+
+.list-of-catergories-main-page p{
+    margin: 90px;
+}
+
+.list-of-catergories-main-page p{
+    border:3px; /* implements a border, we can just specify border and the pixels we dont have to specify much as long as within the css code we specified the border and any amount of pixels above 1px the border can be used around the html element which we apply it to via the css selector*/
+    border-style: solid; /* specifies the style of the border - solid, dotted, dashed etc - the way the border is designed*/
+    border-color: white; /*specifies the color of the border*/
+    display: block;
+    margin: auto; 
+    margin-bottom: 50px;
+    width: 50%;
+}
+
+.list-of-catergories-main-page{
+    margin-top: 100px;
+
+}
+
+.list-of-catergories-main-page a{
+    text-decoration: none;
+}
+
+.list-of-catergories-main-page p:hover{
+    color:orange;
+    border-color:orange;
+}
+
+
+/*=================Categories List End======================*/
+
+
+/*---------------------------------------------------------
+                  Main Content Home Page - End
+-----------------------------------------------------------*/
+
+/*---------------------------------------------------------
+                  Main Content Our Story Page - Start
+-----------------------------------------------------------*/
+
+.our-story-page-body{
+    background-image: url(images/variety\ of\ indian\ food\ backrground-overlay-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.main-content-our-story-page{
+    color:white;
+    font-size: 30px;
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+    margin:10%;
+}
+
+.main-content-our-story-page p{
+    word-spacing: 5px; /*spaces the words in p tags apart*/
+}
+
+.main-content-our-story-page h1{
+    word-spacing: 5px; /*spaces the words in p tags apart*/
+}
+
+/*---------------------------------------------------------
+                  Main Content Our Story Page - End
+-----------------------------------------------------------*/
+
+/*---------------------------------------------------------
+                  Main Content About Page - Start
+-----------------------------------------------------------*/
+
+.about-page-body {
+    background-image: url("images/variety\ of\ indian\ food\ backrground-overlay-2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.main-content-about-page{
+    color:white;
+    font-size: 30px;
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+    margin:10%;
+}
+
+.main-content-about-page p{
+    word-spacing: 5px;
+}
+
+.main-content-about-page h1{
+    word-spacing: 5px;
+}
+
+/*---------------------------------------------------------
+                  Main Content About Page - End
+-----------------------------------------------------------*/
+
+/*---------------------------------------------------------
+         Main Content Order Confirmation Page - Start
+-----------------------------------------------------------*/
+
+.order-confirmation-page-body{
+    background-image: url(images/variety\ of\ indian\ food\ backrground-overlay-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.main-content-order-confirmation-page{
+    color:white;
+    font-size: 30px;
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+    margin:10%;
+}
+
+.main-content-order-confirmation-page p{
+    word-spacing: 5px;
+}
+
+.main-content-order-confirmation-page h1{
+    word-spacing: 5px;
+}
+
+/*---------------------------------------------------------
+         Main Content Order Confirmation Page - End
+-----------------------------------------------------------*/
+
+/*---------------------------------------------------------
+         Main Content Contact Page - End
+-----------------------------------------------------------*/
+
+.contact-page-body {
+    background-image: url("images/variety\ of\ indian\ food\ backrground-overlay-2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.main-content-contact-page {
+    color:white;
+    font-size: 30px;
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+    margin:10%;
+}
+
+.main-content-contact-page i{
+    display:inline-block;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.main-content-contact-page h1{
+    word-spacing:5px;
+}
+
+.main-content-contact-page h3{
+    word-spacing: 5px;
+}
+
+.main-content-contact-page li{
+    list-style-type: none;
+}
+
+.main-content-contact-page ul i{ /* targeting the i tag within the ul tag within the main content contact page - chaining the tags to access a specific tag within the hierachy*/
+    margin: 30px;
+}
+
+.submit-button {
+    background-color: rgb(255, 183, 48);
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    margin-top: 50px;
+    width: 20%;
+}
+
+.submission-form{
+    display: grid;
+    text-align: center;
+}
+
+.submission-form input{
+    text-align: center;
+}
+/*---------------------------------------------------------
+         Main Content Contact Page - End
+-----------------------------------------------------------*/
+
+/*---------------------------------------------------------
+         Main Content Contact Page - End
+-----------------------------------------------------------*/
+
+/*---------------------------------------------------------
+         Main Content Location Page - End
+-----------------------------------------------------------*/
+
+.our-locations-page-body{
+    background-image: url("images/variety\ of\ indian\ food\ backrground-overlay-2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.main-content-our-locations-page{
+    color:white;
+    font-size: 30px;
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+    margin:10%;
+}
+
+.main-content-our-locations-page h1{
+    word-spacing:5px;
+}
+
+.main-content-our-locations-page p {
+    word-spacing:5px;
+}
+
+
+.list-of-provinces {
+    list-style-type: none;
+    text-align: center;
+}
+
+.list-of-provinces li{
+    padding-top: 30px;
+}
+
+.main-content-our-locations-page li:hover{
+    color:orange;
+}
+
+/*---------------------------------------------------------
+         Main Content Location Page - End
+-----------------------------------------------------------*/
+
+/*---------------------------------------------------------
+         Main Content Franchises Page - Start
+-----------------------------------------------------------*/
+
+.our-franchises-page-body{
+    background-image: url("images/variety\ of\ indian\ food\ backrground-overlay-2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.main-content-our-franchises-page{
+    color:white;
+    font-size: 30px;
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+    margin:10%;
+}
+
+.list-of-franchise-location{
+    list-style-type: none;
+    text-align: left;
+
+}
+
+.list-of-franchise-location li{
+    word-spacing:5px;
+    padding-top:30px;
+}
+
+.list-of-franchise-location li:hover{
+    color:orange;
+}
+
+.main-content-our-franchises-page h1{
+    word-spacing: 5px;
+}
+
+.main-content-our-franchises-page p{
+    word-spacing: 5px;
+}
+
+/*---------------------------------------------------------
+         Main Content Franchises Page - End
+-----------------------------------------------------------*/
+
+/*---------------------------------------------------------
+         Main Content T&Cs Page - Start
+-----------------------------------------------------------*/
+
+.tc-page-body{
+    background-image: url("images/variety\ of\ indian\ food\ backrground-overlay-2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.main-content-tc-page{
+    color:white;
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 15px;
+    margin:10%;
+}
+
+.main-content-tc-page h1{
+    word-spacing:5px;
+}
+
+
+.main-content-tc-page h3{
+    word-spacing:5px;
+}
+
+.main-content-tc-page p{
+    word-spacing:8px;
+}
+
+/*---------------------------------------------------------
+         Main Content T&Cs Page - End
+-----------------------------------------------------------*/
+
+/*---------------------------------------------------------
+         Main Content Disclaimer Page - Start
+-----------------------------------------------------------*/
+
+.disclaimer-page-body{
+    background-image: url("images/variety\ of\ indian\ food\ backrground-overlay-2.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.main-content-disclaimer-page{
+    color:white;
+    font-size: 30px;
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+    margin:10%;
+}
+
+
+.main-content-disclaimer-page p{
+    word-spacing:5px;
+}
+
+/*---------------------------------------------------------
+         Main Content Disclaimer Page - End
+-----------------------------------------------------------*/
+
+/*---------------------------------------------------------
+         Main Course Meals Page - Start
+-----------------------------------------------------------*/
+
+.main-course-meals-page-body{
+    background-image: url("images/flatlay-iron-skillet-with-meat-and-other-food.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.main-content-main-course-meals-page{
+    color:white;
+    font-size: 30px;
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+    margin:10%;
+}
+
+.main-course-meal-list a{
+    text-decoration: none;
+    color:white;
+    font-size: 30px;
+    font-family:'Times New Roman', Times, serif;
+    text-align: center; 
+}
+
+.main-course-meal-list li {
+    list-style-type: none;
+    border: 5px;
+    padding:10px;
+    border-style: solid;
+    border-color:white;
+    margin-bottom: 50px;
+}
+
+.main-course-meal-list li:hover{
+    border-color: orange;
+}
+
+/*---------------------------------------------------------
+         Main Course Meals Page - End
+-----------------------------------------------------------*/
+
+
+/*---------------------------------------------------------
+              Break fast page - Start
+-----------------------------------------------------------*/
+
+.breakfast-page-body{
+    background-image: url("images/flatlay-iron-skillet-with-meat-and-other-food.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.breakfast-page{
+    color:white;
+    font-size: 30px;
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+    margin:10%;
+}
+
+.breakfast-lists a{
+    text-decoration: none;
+    color:white;
+    font-size: 30px;
+    font-family:'Times New Roman', Times, serif;
+    text-align: center; 
+}
+
+.breakfast-lists li{
+    list-style-type: none;
+    border: 5px;
+    padding:10px;
+    border-style: solid;
+    border-color:white;
+    margin-bottom: 50px;
+}
+
+.breakfast-lists li:hover{
+    border-color: orange;
+}
+
+
+/*---------------------------------------------------------
+                Break fast page - End
+-----------------------------------------------------------*/
+
+.breakfast-page-body{
+    background-image: url("images/flatlay-iron-skillet-with-meat-and-other-food.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.breakfast-page{
+    color:white;
+    font-size: 30px;
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+    margin:10%;
+}
+
+.breakfast-lists a{
+    text-decoration: none;
+    color:white;
+    font-size: 30px;
+    font-family:'Times New Roman', Times, serif;
+    text-align: center; 
+}
+
+.breakfast-lists li{
+    list-style-type: none;
+    border: 5px;
+    padding:10px;
+    border-style: solid;
+    border-color:white;
+    margin-bottom: 50px;
+}
+
+.breakfast-lists li:hover{
+    border-color: orange;
+}
+
+/*---------------------------------------------------------
+                 Drinks page - Start
+-----------------------------------------------------------*/
+
+.drinks-page-body{
+    background-image: url("images/flatlay-iron-skillet-with-meat-and-other-food.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.drinks-page{
+    color:white;
+    font-size: 30px;
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+    margin:10%;
+}
+
+.drinks-lists a{
+    text-decoration: none;
+    color:white;
+    font-size: 30px;
+    font-family:'Times New Roman', Times, serif;
+    text-align: center; 
+}
+
+.drinks-lists li{
+    list-style-type: none;
+    border: 5px;
+    padding:10px;
+    border-style: solid;
+    border-color:white;
+    margin-bottom: 50px;
+}
+
+.drinks-lists li:hover{
+    border-color: orange;
+}
+
+/*---------------------------------------------------------
+                 Drinks page - End
+-----------------------------------------------------------*/
+
+/*---------------------------------------------------------
+                 Deserts page - Start
+-----------------------------------------------------------*/
+
+.deserts-page-body{
+    background-image: url("images/flatlay-iron-skillet-with-meat-and-other-food.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.deserts-page{
+    color:white;
+    font-size: 30px;
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+    margin:10%;
+}
+
+.deserts-lists a{
+    text-decoration: none;
+    color:white;
+    font-size: 30px;
+    font-family:'Times New Roman', Times, serif;
+    text-align: center; 
+}
+
+.deserts-lists li{
+    list-style-type: none;
+    border: 5px;
+    padding:10px;
+    border-style: solid;
+    border-color:white;
+    margin-bottom: 50px;
+}
+
+.deserts-lists li:hover{
+    border-color: orange;
+}
+
+/*---------------------------------------------------------
+                 Deserts page - End
+-----------------------------------------------------------*/
+
+/*---------------------------------------------------------
+                 Starters page - Start
+-----------------------------------------------------------*/
+
+.starters-page-body{
+    background-image: url("images/flatlay-iron-skillet-with-meat-and-other-food.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.starters-page{
+    color:white;
+    font-size: 30px;
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+    margin:10%;
+}
+
+.starters-lists a{
+    text-decoration: none;
+    color:white;
+    font-size: 30px;
+    font-family:'Times New Roman', Times, serif;
+    text-align: center; 
+}
+
+.starters-lists li{
+    list-style-type: none;
+    border: 5px;
+    padding:10px;
+    border-style: solid;
+    border-color:white;
+    margin-bottom: 50px;
+}
+
+.starters-lists li:hover{
+    border-color: orange;
+}
+
+/*---------------------------------------------------------
+                 Starters page - End
+-----------------------------------------------------------*/
+
+/*---------------------------------------------------------
+                 3 Wings and Small Chips page - Start
+-----------------------------------------------------------*/
+
+.three-wings-and-small-chips-body{
+    background-image: url("images/flatlay-iron-skillet-with-meat-and-other-food.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.three-wings-and-small-chips-page{
+    color:white;
+    font-size: 30px;
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+    margin:10%;
+    border: 5px solid white;
+}
+
+.place-order-btn {
+    background-color: orange;
+    border: none;
+    border-radius: 5px;
+    font-size: 30px;
+    margin: 50px;
+}
+
+.place-order-btn:hover {
+    background-color: rgb(213, 192, 152);
+}
+
+/*---------------------------------------------------------
+                 3 Wings and Small Chips page - End
+-----------------------------------------------------------*/
+
+/*---------------------------------------------------------
+                 5 Wings and Small Chips page - Start
+-----------------------------------------------------------*/
+
+.five-wings-and-small-chips-body{
+    background-image: url("images/flatlay-iron-skillet-with-meat-and-other-food.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.five-wings-and-small-chips-page{
+    color:white;
+    font-size: 30px;
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+    margin:10%;
+    border: 5px solid white;
+}
+
+.place-order-btn {
+    background-color: orange;
+    border: none;
+    border-radius: 5px;
+    font-size: 30px;
+    margin: 50px;
+}
+
+.place-order-btn:hover {
+    background-color: rgb(213, 192, 152);
+}
+
+
+/*---------------------------------------------------------
+                 5 Wings and Small Chips page - End
+-----------------------------------------------------------*/
+
+/*---------------------------------------------------------
+                 Chicken and Small Chips - Start
+-----------------------------------------------------------*/
+.chicken-and-small-chips-body{
+    background-image: url("images/flatlay-iron-skillet-with-meat-and-other-food.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.chicken-and-small-chips-page{
+    color:white;
+    font-size: 30px;
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+    margin:10%;
+    border: 5px solid white;
+}
+
+.chicken-and-small-chips-page img{
+    margin:10px;
+    width: 40%;
+    margin: 10px;
+}
+
+.place-order-btn {
+    background-color: orange;
+    border: none;
+    border-radius: 5px;
+    font-size: 30px;
+    margin: 50px;
+}
+
+.place-order-btn:hover {
+    background-color: rgb(213, 192, 152);
+}
+
+.optional-extras input{
+    margin-top: 50px;
+}
+
+/*---------------------------------------------------------
+                 Chicken and Small Chips - End
+-----------------------------------------------------------*/
+
+
+/*---------------------------------------------------------
+                 Streaky Breakfast - Start
+-----------------------------------------------------------*/
+
+.streaky-breakfast-body{
+    background-image: url("images/flatlay-iron-skillet-with-meat-and-other-food.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.streaky-breakfast-page{
+    color:white;
+    font-size: 30px;
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+    margin:10%;
+    border: 5px solid white;
+}
+
+.streaky-breakfast-page img{
+    margin:10px;
+    width: 40%;
+    margin: 10px;
+}
+
+.place-order-btn {
+    background-color: orange;
+    border: none;
+    border-radius: 5px;
+    font-size: 30px;
+    margin: 50px;
+}
+
+.place-order-btn:hover {
+    background-color: rgb(213, 192, 152);
+}
+
+.optional-extras input{
+    margin-top: 50px;
+}
+
+
+/*---------------------------------------------------------
+                 Cheese Grillers - Start
+-----------------------------------------------------------*/
+
+.cheese-grillers-body{
+    background-image: url("images/flatlay-iron-skillet-with-meat-and-other-food.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.cheese-grillers-page{
+    color:white;
+    font-size: 30px;
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+    margin:10%;
+    border: 5px solid white;
+}
+
+.cheese-grillers-page img{
+    margin:10px;
+    width: 40%;
+    margin: 10px;
+}
+
+.place-order-btn {
+    background-color: orange;
+    border: none;
+    border-radius: 5px;
+    font-size: 30px;
+    margin: 50px;
+}
+
+.place-order-btn:hover {
+    background-color: rgb(213, 192, 152);
+}
+
+.optional-extras input{
+    margin-top: 50px;
+}
+
+
+/*---------------------------------------------------------
+                 Cheese Grillers - End
+-----------------------------------------------------------*/
+
+/*---------------------------------------------------------
+                 Cheese and Tomato Omelette - Start
+-----------------------------------------------------------*/
+
+.cheese-and-tomato-omelette-body{
+    background-image: url("images/flatlay-iron-skillet-with-meat-and-other-food.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.cheese-and-tomato-omelette-page{
+    color:white;
+    font-size: 30px;
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+    margin:10%;
+    border: 5px solid white;
+}
+
+.cheese-and-tomato-omelette-page img{
+    margin:10px;
+    width: 40%;
+    margin: 10px;
+}
+
+.place-order-btn {
+    background-color: orange;
+    border: none;
+    border-radius: 5px;
+    font-size: 30px;
+    margin: 50px;
+}
+
+.place-order-btn:hover {
+    background-color: rgb(213, 192, 152);
+}
+
+.optional-extras input{
+    margin-top: 50px;
+}
+
+/*---------------------------------------------------------
+                 Cheese and Tomato Omelette - End
+-----------------------------------------------------------*/
+
+/*---------------------------------------------------------
+    Flame-grilled chicken 1/4 Chicken with Fries - Start
+-----------------------------------------------------------*/
+
+
+.flame-grilled-chicken-body{
+    background-image: url("images/flatlay-iron-skillet-with-meat-and-other-food.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.flame-grilled-chicken-page{
+    color:white;
+    font-size: 30px;
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+    margin:10%;
+    border: 5px solid white;
+}
+
+.flame-grilled-chicken-page img{
+    margin:10px;
+    width: 40%;
+    margin: 10px;
+}
+
+.place-order-btn {
+    background-color: orange;
+    border: none;
+    border-radius: 5px;
+    font-size: 30px;
+    margin: 50px;
+}
+
+.place-order-btn:hover {
+    background-color: rgb(213, 192, 152);
+}
+
+.optional-extras input{
+    margin-top: 50px;
+}
+
+/*---------------------------------------------------------
+    Flame-grilled chicken 1/4 Chicken with Fries - End
+-----------------------------------------------------------*/
+
+/*---------------------------------------------------------
+         Flame-grilled chicken platter - Start
+-----------------------------------------------------------*/
+
+
+.flame-grilled-chicken-platter-body{
+    background-image: url("images/flatlay-iron-skillet-with-meat-and-other-food.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.flame-grilled-chicken-platter-page{
+    color:white;
+    font-size: 30px;
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+    margin:10%;
+    border: 5px solid white;
+}
+
+.cheese-and-tomato-omelette-page img{
+    margin:10px;
+    width: 40%;
+    margin: 10px;
+}
+
+.place-order-btn {
+    background-color: orange;
+    border: none;
+    border-radius: 5px;
+    font-size: 30px;
+    margin: 50px;
+}
+
+.place-order-btn:hover {
+    background-color: rgb(213, 192, 152);
+}
+
+.optional-extras input{
+    margin-top: 50px;
+}
+
+/*---------------------------------------------------------
+         Flame-grilled chicken platter - End
+-----------------------------------------------------------*/
+
+/*---------------------------------------------------------
+             Boujee Bowls and Salads - Start
+-----------------------------------------------------------*/
+
+
+.boujee-bowls-and-salads-body{
+    background-image: url("images/flatlay-iron-skillet-with-meat-and-other-food.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.boujee-bowls-and-salads-page{
+    color:white;
+    font-size: 30px;
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+    margin:10%;
+    border: 5px solid white;
+}
+
+.boujee-bowls-and-salads-page img{
+    margin:10px;
+    width: 40%;
+    margin: 10px;
+}
+
+.place-order-btn {
+    background-color: orange;
+    border: none;
+    border-radius: 5px;
+    font-size: 30px;
+    margin: 50px;
+}
+
+.place-order-btn:hover {
+    background-color: rgb(213, 192, 152);
+}
+
+.optional-extras input{
+    margin-top: 50px;
+}
+
+/*---------------------------------------------------------
+             Boujee Bowls and Salads - End
+-----------------------------------------------------------*/
+
+/*---------------------------------------------------------
+                        Waffle - Start
+-----------------------------------------------------------*/
+
+
+.waffle-body{
+    background-image: url("images/flatlay-iron-skillet-with-meat-and-other-food.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.waffle-page{
+    color:white;
+    font-size: 30px;
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+    margin:10%;
+    border: 5px solid white;
+}
+
+.waffle-page img{
+    margin:10px;
+    width: 40%;
+    margin: 10px;
+}
+
+.place-order-btn {
+    background-color: orange;
+    border: none;
+    border-radius: 5px;
+    font-size: 30px;
+    margin: 50px;
+}
+
+.place-order-btn:hover {
+    background-color: rgb(213, 192, 152);
+}
+
+.optional-extras input{
+    margin-top: 50px;
+}
+
+/*---------------------------------------------------------
+                        Waffle - End
+-----------------------------------------------------------*/
+
+/*---------------------------------------------------------
+                    Bar-One Waffle - Start
+-----------------------------------------------------------*/
+
+.bar-one-waffle-body{
+    background-image: url("images/flatlay-iron-skillet-with-meat-and-other-food.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.bar-one-waffle-page{
+    color:white;
+    font-size: 30px;
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+    margin:10%;
+    border: 5px solid white;
+}
+
+.bar-one-waffle-page img{
+    margin:10px;
+    width: 40%;
+    margin: 10px;
+}
+
+.place-order-btn {
+    background-color: orange;
+    border: none;
+    border-radius: 5px;
+    font-size: 30px;
+    margin: 50px;
+}
+
+.place-order-btn:hover {
+    background-color: rgb(213, 192, 152);
+}
+
+.optional-extras input{
+    margin-top: 50px;
+}
+
+
+/*---------------------------------------------------------
+                    Bar-One Waffle - End
+-----------------------------------------------------------*/
+
+/*---------------------------------------------------------
+                    Triple Choc Cake - Start
+-----------------------------------------------------------*/
+
+.triple-choc-cake-body {
+    background-image: url("images/flatlay-iron-skillet-with-meat-and-other-food.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.triple-choc-cake-page{
+    color:white;
+    font-size: 30px;
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+    margin:10%;
+    border: 5px solid white;
+}
+
+.triple-choc-cake-page img{
+    margin:10px;
+    width: 40%;
+    margin: 10px;
+}
+
+.place-order-btn {
+    background-color: orange;
+    border: none;
+    border-radius: 5px;
+    font-size: 30px;
+    margin: 50px;
+}
+
+.place-order-btn:hover {
+    background-color: rgb(213, 192, 152);
+}
+
+.optional-extras input{
+    margin-top: 50px;
+}
+
+
+/*---------------------------------------------------------
+                    Triple Choc Cake - End
+-----------------------------------------------------------*/
+
+/*---------------------------------------------------------
+                    Blue Lagoon - Start
+-----------------------------------------------------------*/
+
+.blue-lagoon-body{
+    background-image: url("images/flatlay-iron-skillet-with-meat-and-other-food.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.blue-lagoon-page{
+    color:white;
+    font-size: 30px;
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+    margin:10%;
+    border: 5px solid white;
+}
+
+.blue-lagoon-page img{
+    margin:10px;
+    width: 40%;
+    margin: 10px;
+}
+
+.place-order-btn {
+    background-color: orange;
+    border: none;
+    border-radius: 5px;
+    font-size: 30px;
+    margin: 50px;
+}
+
+.place-order-btn:hover {
+    background-color: rgb(213, 192, 152);
+}
+
+.optional-extras input{
+    margin-top: 50px;
+}
+
+
+/*---------------------------------------------------------
+                    Blue Lagoon - End
+-----------------------------------------------------------*/
+
+/*---------------------------------------------------------
+                    Moja Cooler - Start
+-----------------------------------------------------------*/
+
+.moja-cooler-body{
+    background-image: url("images/flatlay-iron-skillet-with-meat-and-other-food.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.moja-cooler-page{
+    color:white;
+    font-size: 30px;
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+    margin:10%;
+    border: 5px solid white;
+}
+
+.moja-cooler-page img{
+    margin:10px;
+    width: 40%;
+    margin: 10px;
+}
+
+.place-order-btn {
+    background-color: orange;
+    border: none;
+    border-radius: 5px;
+    font-size: 30px;
+    margin: 50px;
+}
+
+.place-order-btn:hover {
+    background-color: rgb(213, 192, 152);
+}
+
+.optional-extras input{
+    margin-top: 50px;
+}
+
+
+/*---------------------------------------------------------
+                    Moja Cooler - End
+-----------------------------------------------------------*/
+
+/*---------------------------------------------------------
+                    Passion Fruit - Start
+-----------------------------------------------------------*/
+
+.passion-fruit-body{
+    background-image: url("images/flatlay-iron-skillet-with-meat-and-other-food.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.passion-fruit-page{
+    color:white;
+    font-size: 30px;
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+    margin:10%;
+    border: 5px solid white;
+}
+
+.passion-fruit-page img{
+    margin:10px;
+    width: 40%;
+    margin: 10px;
+}
+
+.place-order-btn {
+    background-color: orange;
+    border: none;
+    border-radius: 5px;
+    font-size: 30px;
+    margin: 50px;
+}
+
+.place-order-btn:hover {
+    background-color: rgb(213, 192, 152);
+}
+
+.optional-extras input{
+    margin-top: 50px;
+}
+
+
+/*---------------------------------------------------------
+                    Passion Fruit - End
+-----------------------------------------------------------*/
+
+/*---------------------------------------------------------
+                    Today's Specials - start
+-----------------------------------------------------------*/
+
+.todays-specials-body{
+    background-image: url("images/variety\ of\ indian\ food\ backrground-overlay-2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.todays-specials-page{
+    color:white;
+    font-size: 30px;
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+    margin:10%;
+}
+
+.todays-specials-page h1{
+    word-spacing:5px;
+}
+
+.todays-specials-page li{
+    word-spacing: 5px;
+    margin: 25px;
+    list-style-type:none;
+    border: 5px;
+    border-color: orange;
+    border-style: solid;
+    border-radius: 100px;
+    padding: 60px;
+}
+
+.todays-specials-page a {
+    color: orange;
+    text-decoration:none;
+    text-align: center;
+    display:inline-block;
+    font-size: 30px;
+    margin: 15px;
+}
+
+.todays-specials-page ul i{
+    margin: 30px;
+}
+
+/*---------------------------------------------------------
+                    Today's Specials - end
+-----------------------------------------------------------*/
+
+
+/*---------------------------------------------------------
+                 Responsive layout - start
+-----------------------------------------------------------*/
+
+@media only screen and (max-width: 800px) {
+    
+    .navigation-bar ul {
+        flex-direction: column;
+    }
+    .main-content h1{
+        color:white;
+        font-size: 80px;
+        font-family:'Times New Roman', Times, serif;
+    }
+}
+
+/*---------------------------------------------------------
+                 Responsive layout - start
+-----------------------------------------------------------*/
